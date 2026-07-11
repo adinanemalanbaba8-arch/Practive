@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandRunner", "CommandRun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task08tests", "task08tests\task08tests.csproj", "{1CF1AF5F-F8E8-4ADF-B5E4-1011C7F22E97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task09", "task09\task09.csproj", "{E39241D8-0D5A-4B9A-8705-015D871EF4A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,18 @@ Global
 		{1CF1AF5F-F8E8-4ADF-B5E4-1011C7F22E97}.Release|x64.Build.0 = Release|Any CPU
 		{1CF1AF5F-F8E8-4ADF-B5E4-1011C7F22E97}.Release|x86.ActiveCfg = Release|Any CPU
 		{1CF1AF5F-F8E8-4ADF-B5E4-1011C7F22E97}.Release|x86.Build.0 = Release|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Debug|x64.Build.0 = Debug|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Debug|x86.Build.0 = Debug|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Release|x64.ActiveCfg = Release|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Release|x64.Build.0 = Release|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Release|x86.ActiveCfg = Release|Any CPU
+		{E39241D8-0D5A-4B9A-8705-015D871EF4A0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
