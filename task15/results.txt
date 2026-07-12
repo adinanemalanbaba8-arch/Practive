@@ -1,0 +1,12 @@
+Otchet po podboru optimalnykh parametrov integrirovaniya
+
+1. Vybranny shag integrirovaniya: 1E-006
+   (minimalny po tochnosti shag, obespechivayuschy pogreshnost ne bolee 1e-4 dlya integrala sin(x) na [-100, 100])
+
+2. Optimalnoe chislo potokov: 10
+   (chislo potokov, pri kotorom dostigaetsya minimalnoe srednee vremya vypolneniya funktsii Solve)
+
+3. Srednee vremya mnogopotochnoy versii (optimalnoe chislo potokov): 869,00 ms
+4. Vremya odnopotochnoy versii (bez ispolzovaniya potokov voobsche): 2716 ms
+5. Uskorenie mnogopotochnoy versii otnositelno odnopotochnoy: 68,00 %
+   (polozhitelnoe znachenie oznachaet, chto mnogopotochnaya versiya rabotaet byistree)
