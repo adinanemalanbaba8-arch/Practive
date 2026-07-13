@@ -68,5 +68,6 @@ public class DefiniteIntegral
             computedValue = BitConverter.DoubleToInt64Bits(newValue);
         }
         while (Interlocked.CompareExchange(ref totalBits, computedValue, initialValue) != initialValue);
+        // test CI
     }
 }
