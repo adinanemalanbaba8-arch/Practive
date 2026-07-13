@@ -7,4 +7,5 @@ public interface ISpaceship
     void Fire();             // Выстрел ракетой
     int Speed { get; }       // Скорость корабля
     int FirePower { get; }   // Мощность выстрела
+    // test 
 }
