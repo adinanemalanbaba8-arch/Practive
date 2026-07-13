@@ -15,4 +15,5 @@ public class VersionAttribute : Attribute
     }
 
     public override string ToString() => $"{Major}.{Minor}";
+    // test CI
 }
