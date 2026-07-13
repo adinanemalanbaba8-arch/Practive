@@ -29,6 +29,7 @@ public class CustomCollection<T> : IEnumerable<T>
         for (int i = 0; i < count; i++)
         {
             yield return start + i;
+            // test CI
         }
     }
 
