@@ -73,5 +73,6 @@ public class FileSystemCommandsTests
         Assert.IsAssignableFrom<CommandLib.ICommand>(command);
 
         Directory.Delete(testDir, true);
+        // test CI
     }
 }
