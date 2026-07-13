@@ -9,5 +9,6 @@ public class PluginACommand : ICommand
     public void Execute()
     {
         Console.WriteLine("Выполнение PluginA (без зависимостей)");
+        // test CI
     }
 }
