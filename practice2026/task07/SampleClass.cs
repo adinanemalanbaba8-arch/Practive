@@ -9,6 +9,7 @@ public class SampleClass
 
     [DisplayName("Тестовый метод")]
     public void TestMethod()
+        // test CI
     {
     }
 }

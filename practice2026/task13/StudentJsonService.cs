@@ -69,6 +69,7 @@ public class StudentJsonService
         if (student.BirthDate > DateTime.Now)
         {
             throw new InvalidOperationException("Дата рождения не может быть в будущем.");
+            // test CI
         }
     }
 }

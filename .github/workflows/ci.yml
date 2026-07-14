@@ -1,0 +1,28 @@
+name: .NET Core CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Configurer .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restaurer les dépendances
+      run: dotnet restore
+
+    - name: Compiler
+      run: dotnet build --no-restore
+
+    - name: Exécuter les tests
+      run: dotnet test --no-build --verbosity normal

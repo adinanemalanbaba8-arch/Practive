@@ -114,6 +114,7 @@ class Program
         File.WriteAllLines(reportPath, lines);
         Console.WriteLine();
         Console.WriteLine("Rezultaty zapisany v fayl: " + Path.GetFullPath(reportPath));
+        // test CI
     }
 }
 

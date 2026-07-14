@@ -18,5 +18,6 @@ public class Fighter : ISpaceship
     public void Fire()
     {
         // Истребитель стреляет слабой фотонной ракетой
+        // test CI
     }
 }

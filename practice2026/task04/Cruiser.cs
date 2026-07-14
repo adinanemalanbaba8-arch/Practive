@@ -18,5 +18,6 @@ public class Cruiser : ISpaceship
     public void Fire()
     {
         // Крейсер стреляет мощной фотонной ракетой
+        // test CI
     }
 }

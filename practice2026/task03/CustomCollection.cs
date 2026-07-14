@@ -29,10 +29,12 @@ public class CustomCollection<T> : IEnumerable<T>
         for (int i = 0; i < count; i++)
         {
             yield return start + i;
+            
         }
     }
 
     // Фильтрация и сортировка с помощью LINQ
     public IEnumerable<T> FilterAndSort(Func<T, bool> predicate, Func<T, IComparable> keySelector)
         => _items.Where(predicate).OrderBy(keySelector);
+        // test CI
 }

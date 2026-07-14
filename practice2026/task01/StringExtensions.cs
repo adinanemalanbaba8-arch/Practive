@@ -22,5 +22,6 @@ public static class StringExtensions
         string reversed = new string(result.Reverse().ToArray());
 
         return result == reversed;
+        // test CI
     }
 }

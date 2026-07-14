@@ -22,5 +22,6 @@ public class DateOnlyJsonConverter : JsonConverter<DateTime>
     public override void Write(Utf8JsonWriter writer, DateTime value, JsonSerializerOptions options)
     {
         writer.WriteStringValue(value.ToString(Format, System.Globalization.CultureInfo.InvariantCulture));
+        // test CI
     }
 }

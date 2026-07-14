@@ -10,5 +10,6 @@ public class PluginLoadAttribute : Attribute
     public PluginLoadAttribute(params string[] dependencies)
     {
         Dependencies = dependencies;
+        // test CI
     }
 }

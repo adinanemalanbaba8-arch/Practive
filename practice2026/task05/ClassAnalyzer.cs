@@ -41,4 +41,5 @@ public class ClassAnalyzer
     // Наличие атрибута указанного типа у класса
     public bool HasAttribute<T>() where T : Attribute
         => _type.GetCustomAttribute<T>() != null;
+    // test CI
 }
